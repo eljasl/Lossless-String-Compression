@@ -21,7 +21,7 @@ lsc.py expects a curl POST with a .txt file named "words".
 Use HOST:PORT/compress to compress the contents of a .txt file
 Use HOST:PORT/decompress to decompress the contents of a .txt file
 
-**Example**
+# Example
 To test the script locally, cd to repositry in command line and run the lsc.py script:
 ```
 python lsc.py
