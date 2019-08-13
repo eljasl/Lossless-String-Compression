@@ -24,9 +24,13 @@ Use HOST:PORT/compress to compress the contents of a .txt file
 Use HOST:PORT/decompress to decompress the contents of a .txt file
 
 # Example
-To test the script locally, cd to repositry in command line and run the lsc.py script:
+To test the script locally, cd to repositry in command line and run the lsc.py script with python:
 ```
 python lsc.py
+```
+Or if you have several installations of Python:
+```
+python3 lsc.py
 ```
 
 Then open up another command line and run the following:
