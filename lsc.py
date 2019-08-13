@@ -68,7 +68,7 @@ def compress():
         compressedList = compress_loop(wordList)
         return '\n'.join(compressedList)
     else:
-        return f'Only POST method is supported. Received {request.method}'
+        return f'Only POST method is supported. Received {request.method}.'
 
 @app.route('/decompress', methods=['GET','POST'])
 def decompress():
@@ -87,7 +87,7 @@ def decompress():
         decompressedList = decompress_loop(wordList)
         return '\n'.join(decompressedList)
     else:
-        return 'Only POST method is supported.'
+        return 'Only POST method is supported. Received {request.method}.'
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=80)
