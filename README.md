@@ -17,8 +17,10 @@ pip install flask
 - words_comp_mini.txt: Contains a small sample of words_comp.txt
 
 # Usage
-lsc.py expects a curl POST with a .txt file named "words".
+lsc.py expects a curl POST with a .txt file named "words". The words in .txt file need to be separated with either spaces or newlines.
+
 Use HOST:PORT/compress to compress the contents of a .txt file
+
 Use HOST:PORT/decompress to decompress the contents of a .txt file
 
 # Example
