@@ -36,9 +36,9 @@ def decompress_item(curr, prev):
 
 def decompress_loop(compressedList):
     '''
-    Loops through a list of encoded words and applies the decoder to each pair.
-    Returns a list of decoded words.
-    encodedList: Encoded words as a list of strings
+    Loops through a list of compressed words and applies the decompressor to each pair.
+    Returns a list of decompressed words.
+    compressedList: Compressed words as a list of strings
     '''
     decompressedList = []
     previous = ''
